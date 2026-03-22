@@ -11,11 +11,17 @@ id "test"
 measurement {
     mkey "fwid-from-cert-chain"
     algorithm 10
-    digest "72fa8f8ea84a42251031366002cbb36281d0131f78cd680436116a720cdd9de5"
+    digest "23f984bf34dd3c98140dd3f49a1b1de9d620a2b52d73605a0db9e930ceb332b0"
 }
 
 measurement {
     mkey "fwid-from-log"
     algorithm 10
-    digest "be4df4e085175f3de0c8ac4837e1c2c9a34e8983209dac6b549e94154f7cdd9c"
+    digest "cdfde47ca96b935e46866e30be6add1bff2b9a904e08c2edd71eb56e2c78ce07"
+}
+
+measurement {
+    mkey "dunno"
+    algorithm 10
+    digest "c926ab101f61b27443216c5f068bf21434f11607a7c3bdb65a9af0fa95bcc917"
 }
