@@ -44,7 +44,7 @@ pub enum VmInstanceRotSocketClientError {
     #[error("error from the underlying socket")]
     Socket(#[from] std::io::Error),
 
-    #[error("error from the VmInstanceRot")]
+    #[error("error from the VmInstanceRot: {0}")]
     VmInstanceRot(String),
 }
 
